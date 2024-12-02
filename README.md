@@ -1,18 +1,18 @@
-# 📱 Mobile Price Prediction
+# 📱 Mobile Price Prediction 🔮
 
-Predicting Mobile Phone Prices using Linear Regression. This project includes data preprocessing, model training, evaluation, and visualization to assess model performance and improve prediction accuracy.
+Ever wondered how much a mobile phone should cost based on its specs? This project predicts mobile phone prices using Linear Regression. It includes everything from data preprocessing to model training, evaluation, and visualization. Plus, I've made it interactive with a Flask web app so you can try it out for yourself!
 
 ## 📝 Project Overview
 
-This project involves implementing a linear regression model trained on a dataset containing mobile phone hardware specifications and their prices. The trained model is used to predict the prices of mobile phones based on their features. Additionally, a simple Flask web application is provided to allow users to input phone specifications and get price predictions.
+In this project, we’re building a Linear Regression model to predict mobile phone prices. The model is trained on a dataset with mobile phone specifications, like camera quality, RAM, battery, and more. After training, it predicts the price based on those features. We also have a simple Flask web app that lets you input your own phone specs and get a price prediction.
 
 ## ✨ Features
 
-- **Data Preprocessing**: Cleaning and preparing the dataset for model training.
-- **Model Training**: Training a linear regression model using scikit-learn.
-- **Model Evaluation**: Evaluating the performance of the model using various metrics.
-- **Visualization**: Visualizing the data and model performance.
-- **Web Application**: A Flask web app for user interaction and price prediction.
+- **🔧 Data Preprocessing: Cleaning and preparing data to make it model-ready.
+- **📊 Model Training: Training the linear regression model using scikit-learn.
+- **✅ Model Evaluation: Measuring model performance with various metrics.
+- **📈 Visualization: Visualizing data and model performance.
+- **🌐 Web Application: A simple Flask web app to get price predictions based on your inputs.
 
 ## 🛠️ Setup and Installation
 
@@ -24,7 +24,8 @@ This project involves implementing a linear regression model trained on a datase
 2. **Create and activate a virtual environment**:
     ```
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    # On Windows use: venv\Scripts\activate
+    source venv/bin/activate  # For macOS/Linux
     ```
 
 3. **Install the required packages**:
@@ -48,7 +49,7 @@ This project involves implementing a linear regression model trained on a datase
     - Evaluate the model's performance on the test set.
 
 3. **Web Application**:
-    - Access the web app at `http://localhost:5000` or if you just wanna take a look at the web app check it out [here](https://mobile-price-prediction-78by.onrender.com).
+    - Access the web app at `http://localhost:5000`.
     - Enter the mobile phone specifications in the form.
     - Get the predicted price for the mobile phone.
 

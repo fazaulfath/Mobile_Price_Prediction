@@ -18,8 +18,7 @@ This project involves implementing a linear regression model trained on a datase
 
 1. **Clone the repository**:
     ```
-    git clone https://github.com/SimonDerejeW/Mobile-Price-Prediction.git
-    cd Mobile-Price-Prediction
+    git clone https://github.com/fazaulfath/Mobile_Price_Prediction.git
     ```
 
 2. **Create and activate a virtual environment**:
@@ -68,12 +67,3 @@ This project involves implementing a linear regression model trained on a datase
 - scikit-learn
 - seaborn
 - pandas
-
-## 🤝 Contributing
-
-Contributions are welcome! Please create a pull request or open an issue to discuss any changes.
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
